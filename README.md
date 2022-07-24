@@ -20,4 +20,4 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 ### api key
-> create the **apikey.txt** file in the project directory and paste the api key there
+> create the **apikey.txt** file in the project directory and paste the youtube data api key there
