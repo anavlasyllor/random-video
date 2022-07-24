@@ -1,0 +1,226 @@
+rocket
+rocket launch
+model rocket
+model rocket launch
+ksp rocket launch
+Amur launch
+Angara 1 launch
+Angara A5 launch
+Antares launch
+Ariane 1 launch
+Ariane 2 launch
+Ariane 3 launch
+Ariane 4 launch
+Ariane 5 launch
+Ariane 6 launch
+ASLV launch
+Athena I launch
+Athena II launch
+Atlas-Able launch
+Atlas-Agena launch
+Atlas-Altair launch
+Atlas-Burner launch
+Atlas-Centaur launch
+Atlas I launch
+Atlas II launch
+Atlas III launch
+Atlas LV-3B launch
+Atlas-MSD launch
+Atlas-OIS launch
+Atlas-OV1 launch
+Atlas-PTS launch
+Atlas-SGS launch
+Atlas SLV-3 launch
+Atlas-Star launch
+Atlas V launch
+Black Arrow launch
+Blue Scout II launch
+Ceres-1 launch
+Conestoga-1 launch
+Cosmos-1 launch
+Cosmos-2I launch
+Cosmos-3 launch
+Cyclone-4M launch
+Delta 0100 Series launch
+Delta 1000 Series launch
+Delta 2000 Series launch
+Delta 3000 Series launch
+Delta 4000 Series launch
+Delta 5000 Series launch
+Delta A launch
+Delta B launch
+Delta C launch
+Delta D launch
+Delta E launch
+Delta G launch
+Delta II launch
+Delta III launch
+Delta IV Heavy launch
+Delta IV Medium launch
+Delta J launch
+Delta L launch
+Delta M launch
+Delta N launch
+Diamant launch
+Dnepr launch
+Electron launch
+Energiya launch
+Epsilon launch
+Europa launch
+Falcon 1 launch
+Falcon 9 launch
+Falcon Heavy launch
+Feng Bao 1 launch
+Firefly Alpha launch
+Firefly Beta launch
+GSLV Mk III launch
+GSLV Mk I & II launch
+Hapith V launch
+H-I launch
+H-II launch
+H-IIA launch
+H-IIB launch
+H-III launch
+Hyperbola-1 launch
+Jielong-1 launch
+Juno I launch
+Juno II launch
+Kaituozhe-1 launch
+Kaituozhe-2 launch
+KSLV launch
+Kuaizhou 1 launch
+Kuaizhou 11 launch
+Kuaizhou 1A launch
+Lambda 4S launch
+Launcher Light launch
+LauncherOne launch
+Long March 1 launch
+Long March 11 launch
+Long March 2A launch
+Long March 2C launch
+Long March 2D launch
+Long March 2E launch
+Long March 2F launch
+Long March 3 launch
+Long March 4A launch
+Long March 4B launch
+Long March 4C launch
+Long March 5 launch
+Long March 5B launch
+Long March 6 launch
+Long March 7 launch
+Long March 8 launch
+Long March 9 launch
+Minotaur C (Taurus) launch
+Minotaur I launch
+Minotaur IV launch
+Minotaur V launch
+Miura 5 launch
+Molniya launch
+Molniya-M launch
+Mu-III launch
+Mu-IV launch
+Mu-V launch
+N1 launch
+New Glenn launch
+N-I launch
+N-II launch
+NOTS-EV-1 launch
+NSL-A launch
+OS-M1 launch
+Pegasus launch
+Polyot launch
+Prime launch
+Proton launch
+Proton-K launch
+Proton-M launch
+PSLV launch
+Qased launch
+R-36 Orb launch
+Redstone Sparta launch
+RFA One launch
+Rocket 3 launch
+Rokot launch
+RS1 launch
+Safir-1 launch
+Saturn I launch
+Saturn IB launch
+Saturn V launch
+Scout launch
+Shavit launch
+Shtil' launch
+Simorgh launch
+SLS launch
+Space Launch System launch
+SLV launch
+SM-65B Atlas launch
+Soyuz launch
+Soyuz 2.1a launch
+Soyuz 2.1b launch
+Soyuz 2.1v launch
+Soyuz 5 launch
+Soyuz FG launch
+Soyuz L launch
+Soyuz M launch
+Soyuz U launch
+Space Shuttle launch
+Space Shuttle landing
+Space Shuttle docking
+Spectrum launch
+Sputnik 8A91 launch
+Sputnik 8K71PS launch
+SS-520 launch
+SSLV launch
+Starship - Super Heavy launch
+Start-1 launch
+Strela launch
+Super Stripy launch
+Taepodong-1 launch
+Terran 1 launch
+Terran R launch
+Thor-Able launch
+Thor-Ablestar launch
+Thor-Agena launch
+Thor-Burner launch
+Thor-Delta launch
+Titan II launch
+Titan III launch
+Titan IV launch
+Tsyklon-2 launch
+Tsyklon-2A launch
+Tsyklon-3 launch
+Unha-2 launch
+Unha-3 launch
+Vanguard launch
+Vega launch
+VLS-1 launch
+Volna launch
+Voskhod launch
+Vostok launch
+Vostok-2 launch
+Vulcan Centaur launch
+Zenit launch
+Zéphyr launch
+Zhongke-1 launch
+ZhuQue-1 launch
+ZhuQue-2 launch
+Zoljanah launch
+sn 15 launch
+sn 12 launch
+sn 11 launch
+sn 10 launch
+sn 9 launch
+sn 8 launch
+sn 7 launch
+sn 6 launch
+sn 5 launch
+sn 4 launch
+sn 3 launch
+sn 2 launch
+sn 1 launch
+Starship Mk1 launch
+Starhopper launch
+buran space shuttle launch
+buran space shuttle landing
+dream chaser launch
+dream chaser landing
