@@ -1,6 +1,6 @@
 # Random YouTube Video
-this repo is the source code of https://randomvideo.pythonanywhere.com/
-this website has been closed.
+this repo is the source code of [randomvideo.pythonanywhere.com](https://randomvideo.pythonanywhere.com/)
+<br/>this website has been closed.
 ### download virtualenv
 ```bash
 pip install virtualenv
