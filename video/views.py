@@ -16,9 +16,8 @@ def get_client_ip(request):
 
 
 def get_download_ips():
-    f = open("download.txt", "r", encoding="utf-8")
-    data = f.read()
-    f.close()
+    with open("download.txt", "r", encoding="utf-8") as f:
+        data = f.read()
     ips = []
     for i in data.split("\n"):
         try:
@@ -54,9 +53,8 @@ def index(request, word=None):
 
 
 def download(request):
-    f = open("download.txt", "a", encoding="UTF-8")
-    f.write("{} => {}\n".format(asctime(), get_client_ip(request)))
-    f.close()
+    with open("download.txt", "a", encoding="UTF-8") as f:
+        f.write("{} => {}\n".format(asctime(), get_client_ip(request)))
     context = {
     }
     return render(request, "download.html", context)
