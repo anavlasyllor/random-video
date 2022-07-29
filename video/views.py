@@ -33,7 +33,7 @@ def index(request, word=None):
         url = youtube_embed_url + get_random_video_id(word, img=True, ip=get_client_ip(request))
     elif word == "wiki":
         url = youtube_embed_url + get_random_video_id(word, wiki=True, ip=get_client_ip(request))
-    elif word == "word_list":
+    elif word == "word":
         url = youtube_embed_url + get_random_video_id(word, word_list=True, ip=get_client_ip(request))
     elif word == "vid":
         url = youtube_embed_url + get_random_video_id(word, vid=True, ip=get_client_ip(request))
