@@ -53,9 +53,8 @@ def get_random_wiki_search():
 
 
 def get_random_word_list_search():
-    f = open("words.txt", "r", encoding="UTF-8")
-    data = f.read()
-    f.close()
+    with open("words.txt", "r", encoding="UTF-8") as f:
+        data = f.read()
     words = data.split("\n")
     return choice(words)
 
