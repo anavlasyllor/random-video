@@ -91,8 +91,15 @@ def get_random_mov_search():
         return "MOV_" + get_random_number()
 
 
+def get_random_dsc_search():
+    if choice([True, False]):
+        return "DSC " + get_random_number()
+    else:
+        return "DSC_" + get_random_number()
+
+
 def get_new_video():
-    word = choice(["img", "vid", "mvi", "mov"])
+    word = choice(["img", "vid", "mvi", "mov", "dsc"])
     return youtube_search(word, new=True), word
 
 
@@ -102,11 +109,11 @@ def special_search(word):
     return choice(data.splitlines())
 
 
-def get_word(word=False, img=False, wiki=False, word_list=False, vid=False, mvi=False, mov=False):
+def get_word(word=False, img=False, wiki=False, word_list=False, vid=False, mvi=False, mov=False, dsc=False):
     # random word types
     case = None
     if not word:
-        case = randrange(6)
+        case = randrange(7)
         if case == 0:
             word = get_random_img_search()
         if case == 1:
@@ -119,6 +126,8 @@ def get_word(word=False, img=False, wiki=False, word_list=False, vid=False, mvi=
             word = get_random_mvi_search()
         if case == 5:
             word = get_random_mov_search()
+        if case == 6:
+            word = get_random_dsc_search()
 
     # designed types
     if img:
@@ -133,6 +142,8 @@ def get_word(word=False, img=False, wiki=False, word_list=False, vid=False, mvi=
         word, case = get_random_mvi_search(), 4
     if mov:
         word, case = get_random_mov_search(), 5
+    if dsc:
+        word, case = get_random_dsc_search(), 6
 
     return word, case
 
@@ -159,16 +170,16 @@ def youtube_search(word, new=False):
 
 
 def get_random_video_id(word=None, img=False, wiki=False, word_list=False, vid=False, mvi=False,
-                        mov=False, new=False, ip=None):
+                        mov=False, new=False, dsc=False, ip=None):
     if (new or randrange(7) == 0) and (
-            not img and not wiki and not word_list and not vid and not mvi and not mov) and (not word or word == "new"):
+            not img and not wiki and not word_list and not vid and not mvi and not mov and not dsc) and (not word or word == "new"):
         id, word = get_new_video()
         save(word, -1, id, ip)
         return id  # get only new videos
 
     while True:
         special_word = False
-        word, case = get_word(word=word, img=img, wiki=wiki, word_list=word_list, vid=vid, mvi=mvi, mov=mov)
+        word, case = get_word(word=word, img=img, wiki=wiki, word_list=word_list, vid=vid, mvi=mvi, mov=mov, dsc=dsc)
         if word == "favicon.ico":
             word, case = get_random_wiki_search(), 1
         elif word == "car":

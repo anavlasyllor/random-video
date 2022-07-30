@@ -43,6 +43,8 @@ def index(request, word=None):
         url = youtube_embed_url + get_random_video_id(word, mov=True, ip=get_client_ip(request))
     elif word == "new":
         url = youtube_embed_url + get_random_video_id(word, new=True, ip=get_client_ip(request))
+    elif word == "dsc":
+        url = youtube_embed_url + get_random_video_id(word, dsc=True, ip=get_client_ip(request))
     # get designed word or not designed random word
     else:
         url = youtube_embed_url + get_random_video_id(word, ip=get_client_ip(request))
