@@ -25,11 +25,15 @@ def get_random_number():
         return "000" + str(number)
 
 
-def get_random_img_search():
-    if choice([True, False]):
-        return "IMG " + get_random_number()
-    else:
-        return "IMG_" + get_random_number()
+def get_random_p_search(p=choice(["img", "mvi", "mov", "dsc"])):
+    case = randrange(3)
+    p = p.upper()
+    if not case:
+        return "{} {}".format(p, get_random_number())
+    if case == 1:
+        return "{}_{}".format(p, get_random_number())
+    if case == 2:
+        return "{}{}".format(p, get_random_number())
 
 
 def get_random_wiki_search():
@@ -77,30 +81,9 @@ def get_random_vid_search():
     return "vid {}{}{}".format(year, month, day)
 
 
-def get_random_mvi_search():
-    if choice([True, False]):
-        return "MVI " + get_random_number()
-    else:
-        return "MVI_" + get_random_number()
-
-
-def get_random_mov_search():
-    if choice([True, False]):
-        return "MOV " + get_random_number()
-    else:
-        return "MOV_" + get_random_number()
-
-
-def get_random_dsc_search():
-    if choice([True, False]):
-        return "DSC " + get_random_number()
-    else:
-        return "DSC_" + get_random_number()
-
-
 def get_new_video():
     word = choice(["img", "vid", "mvi", "mov", "dsc"])
-    return youtube_search(word, new=True), word
+    return youtube_search(word.upper(), new=True), word
 
 
 def special_search(word):
@@ -115,7 +98,7 @@ def get_word(word=False, img=False, wiki=False, word_list=False, vid=False, mvi=
     if not word:
         case = randrange(7)
         if case == 0:
-            word = get_random_img_search()
+            word = get_random_p_search("img")
         if case == 1:
             word = get_random_wiki_search()
         if case == 2:
@@ -123,15 +106,15 @@ def get_word(word=False, img=False, wiki=False, word_list=False, vid=False, mvi=
         if case == 3:
             word = get_random_vid_search()
         if case == 4:
-            word = get_random_mvi_search()
+            word = get_random_p_search("mvi")
         if case == 5:
-            word = get_random_mov_search()
+            word = get_random_p_search("mov")
         if case == 6:
-            word = get_random_dsc_search()
+            word = get_random_p_search("dsc")
 
     # designed types
     if img:
-        word, case = get_random_img_search(), 0
+        word, case = get_random_p_search("img"), 0
     if wiki:
         word, case = get_random_wiki_search(), 1
     if word_list:
@@ -139,11 +122,11 @@ def get_word(word=False, img=False, wiki=False, word_list=False, vid=False, mvi=
     if vid:
         word, case = get_random_vid_search(), 3
     if mvi:
-        word, case = get_random_mvi_search(), 4
+        word, case = get_random_p_search("mvi"), 4
     if mov:
-        word, case = get_random_mov_search(), 5
+        word, case = get_random_p_search("mov"), 5
     if dsc:
-        word, case = get_random_dsc_search(), 6
+        word, case = get_random_p_search("dsc"), 6
 
     return word, case
 
@@ -172,7 +155,8 @@ def youtube_search(word, new=False):
 def get_random_video_id(word=None, img=False, wiki=False, word_list=False, vid=False, mvi=False,
                         mov=False, new=False, dsc=False, ip=None):
     if (new or randrange(7) == 0) and (
-            not img and not wiki and not word_list and not vid and not mvi and not mov and not dsc) and (not word or word == "new"):
+            not img and not wiki and not word_list and not vid and not mvi and not mov and not dsc) and (
+            not word or word == "new"):
         id, word = get_new_video()
         save(word, -1, id, ip)
         return id  # get only new videos
