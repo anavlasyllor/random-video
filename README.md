@@ -1,4 +1,4 @@
-# <img src="./static/ic_launcher-playstore.png" width="25"/> Random YouTube Video
+# <img src="./static/ic_launcher-playstore.png" width="30"/> Random YouTube Video
 this repo is the source code of [randomvideo.pythonanywhere.com](https://randomvideo.pythonanywhere.com/)
 <br/>this website has been closed.
 ### download virtualenv
