@@ -83,7 +83,7 @@ def get_random_vid_search():
 
 def get_new_video():
     word = choice(["img", "vid", "mvi", "mov", "dsc"])
-    return youtube_search(word.upper(), new=True), word
+    return choice(youtube_search(word.upper(), new=True)), word
 
 
 def special_search(word):
