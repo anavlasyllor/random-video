@@ -1,7 +1,7 @@
 # <img src="./static/ic_launcher-playstore.png" width="30"/> Random YouTube Video
 this repo is the source code of [randomvideo.pythonanywhere.com](https://randomvideo.pythonanywhere.com/)
 <br/>this website has been closed.
-<br/>but there is a [Discord Bot](https://discord.com/api/oauth2/authorize?client_id=1005068511703470081&permissions=2048&scope=bot) instead.
+<br/>but there is a [Discord bot](https://discord.com/api/oauth2/authorize?client_id=1005068511703470081&permissions=2048&scope=bot) and [Mobile app](https://play.google.com/store/apps/details?id=com.aenos.randomyoutubevideo) instead.
 
 ### download virtualenv
 ```bash
